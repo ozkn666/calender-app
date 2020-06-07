@@ -7,8 +7,6 @@ import { createCalendar } from '../../service/calendar'
 
 const calendar = createCalendar()
 
-console.log(calendar)
-
 const CalendarBoard = () => {
   return (
     <div className="container">
